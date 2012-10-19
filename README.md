@@ -1,13 +1,13 @@
 # Sublime Text 2 Google Translate Plugin
 
-A plugin to translate text via Google Translate.
+A plugin to translate text via Google Translate.    
 Largely inspired by the Search Stack Overflow plugin written by Eric Martel.
 
 # License
 
 All of Sublime Text 2 Google Translate Plugin is licensed under the MIT license.
 
-Copyright (c) 2012 Eric Martel <emartel@gmail.com>
+Copyright (c) 2012 Eric Martel <emartel@gmail.com>  
 Copyright (c) 2012 Loïc Fontaine <ljph.fontaine@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
