@@ -1,0 +1,59 @@
+[
+    {
+        "caption": "Tools",
+        "mnemonic": "t",
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "Google Translate",
+                "mnemonic": "g",
+                "id": "googletranslate",
+                "children":
+                [
+                    {
+                        "command": "google_translate_selection",
+                        "caption": "Translate Selection"
+                    },
+                    {
+                        "command": "google_translate_from_input",
+                        "caption": "Translate From Input"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Google Translate",
+                        "children":
+                        [
+                            {
+                                "command": "open_file", 
+                                "args": {"file": "${packages}/Google Translate/GoogleTranslate.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file", 
+                                "args": {"file": "${packages}/User/GoogleTranslate.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

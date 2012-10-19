@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Google: Translate Selection",
+        "command": "google_translate_selection"
+    },
+    {
+        "caption": "Google: Translate from Input",
+        "command": "google_translate_from_input"
+    }
+]
