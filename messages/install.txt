@@ -1,8 +1,8 @@
-Very simple translation via Google Translate by Loïc Fontaine (ljph.fontaine@gmail.com / lfont.blog.jit.su)
+Very simple translation via Google Translate by Loic Fontaine (ljph.fontaine@gmail.com / lfont.blog.jit.su)
 
 Please direct any feedback to ljph.fontaine@gmail.com or through github at https://github.com/lfont/Sublime-Text-2-GoogleTranslate-Plugin.
 
 Thank you to Eric Martel for his work on the Search Stack Overflow plugin.
 Thank you for your support.
 
-Loïc Fontaine
+Loic Fontaine
