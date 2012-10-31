@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+alt+g", "ctrl+t"], "command": "google_translate_selection" }
+]
