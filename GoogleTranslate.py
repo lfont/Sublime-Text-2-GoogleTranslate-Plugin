@@ -8,8 +8,7 @@
 
 import sublime
 import sublime_plugin
-
-import webbrowser
+import sys
 
 import urllib
 
@@ -24,7 +23,12 @@ def translate(text, target_language):
     text = urllib.quote(text)
     url = 'http://translate.google.com/#auto/{0}/{1}'.format(target_language,
                                                              text)
-    webbrowser.open_new_tab(url)
+    if sys.platform=='darwin':
+        import subprocess
+        subprocess.Popen(['open', url])
+    else:
+        import webbrowser
+        webbrowser.open_new_tab(url)
 
 
 class GoogleTranslateSelectionCommand(sublime_plugin.TextCommand):
